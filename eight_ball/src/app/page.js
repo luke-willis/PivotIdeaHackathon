@@ -32,6 +32,15 @@ export default function Home() {
     pointLight.position.set(5, 5, 5);
     scene.add(pointLight);
 
+    // Draw an image
+    const textureLoaderImage = new THREE.TextureLoader();
+    const imageList = ['dog_1.jpg', 'dog2.png', 'dog3.png', 'dog4.png', 'dog5.png', 'dog6.png', 'charles.jpg'];
+    const randomItem = imageList[Math.floor(Math.random() * imageList.length)];
+    textureLoaderImage.load(randomItem, (texture) => {
+      scene.background = texture;
+    });
+
+
     // Black sphere (8-ball)
     const ballGeometry = new THREE.SphereGeometry(1, 64, 64);
     const ballMaterial = new THREE.MeshStandardMaterial({ color: 0x000000 });
