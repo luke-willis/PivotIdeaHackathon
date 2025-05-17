@@ -162,7 +162,10 @@ export default function Home() {
     "Maybe in \n10 dog years",
     "Future's \na bit ruff",
     "*Blank Stare*",
-    "I got bone...",
+    "I got a bone...",
+    "Looks like you will \n be a stray soon.",
+    "You're a dog \n chaing a car",
+    "If Matthew/Preston \n Luke\Austin \n will win the hackathon"
   ];
 
   const handleSubmit = (e) => {
