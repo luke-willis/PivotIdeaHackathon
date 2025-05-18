@@ -157,15 +157,15 @@ export default function Home() {
   }, [triggerShake, answer]);
 
   const answers = [
-    "That sounds \nlike a pawsive idea!",
-    "Uh oh... \nGetting neutered",
+    "That sounds \nlike a pawsome idea!",
+    "Uh oh... \nGetting neutered.",
     "Maybe in \n10 dog years",
     "Future's \na bit ruff",
     "*Blank Stare*",
     "I got a bone...",
     "Looks like you will \n be a stray soon.",
-    "You're a dog \n chaing a car",
-    "If Matthew/Preston \n Luke\Austin \n will win the hackathon"
+    "You're a dog \n chasing a car",
+    "If Matthew/Preston \n Luke/Austin \n will win the hackathon"
   ];
 
   const handleSubmit = (e) => {
